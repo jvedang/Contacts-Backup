@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/Gray"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:background="@color/SkyBlue" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/icon2" />
+
+            <TextView
+                android:id="@+id/textBUHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Contacts Backup"
+                android:textColor="@color/Black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textQue1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@color/SkyBlue"
+                android:padding="7dp"
+                android:text="@string/question1"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/textAns1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:text="@string/answer1"
+                android:textColor="@color/Black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textQue2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@color/SkyBlue"
+                android:padding="7dp"
+                android:text="@string/question2"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/textAns2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:text="@string/answer2"
+                android:textColor="@color/Black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textQue3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@color/SkyBlue"
+                android:padding="7dp"
+                android:text="@string/question3"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/textAns3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:text="@string/answer3"
+                android:textColor="@color/Black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textQue4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@color/SkyBlue"
+                android:padding="7dp"
+                android:text="@string/question4"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/textAns4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:text="@string/answer4"
+                android:textColor="@color/Black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textQue5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/SkyBlue"
+                android:padding="7dp"
+                android:text="@string/question5"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/textAns5A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/answer5a"
+                android:textColor="@color/Black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textAns5B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:text="@string/answer5b"
+                android:textColor="@color/Black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textAns5C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:text="@string/answer5c"
+                android:textColor="@color/Black"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

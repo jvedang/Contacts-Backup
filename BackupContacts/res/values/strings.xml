@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contacts Backup</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="backup_contacts">Simple Backup</string>
+    <string name="contacts_detected">0 Contacts Found</string>
+    <string name="question1">1. In what format is my Backup stored?</string>
+    <string name="question2">2. Where is my Backup stored?</string>
+    <string name="question3">3. What is stored in the Backup?</string>
+    <string name="question4">4. How to restore this backup?</string>
+    <string name="question5">5.	How does the Auto – Backup work?</string>
+    <string name="answer1">Backup is stored in vCard format. It is a universal format used to store contacts</string>
+    <string name="answer2">Backup is stored on sdcard, folder ContactsBackup, file Contacts.vcf</string>
+    <string name="answer3">The information available in the contacts, everything is stored in the backup including the photos</string>
+    <string name="answer4">Just click on the Contacts.vcf file, android will restore the contacts</string>
+    <string name="answer5a">a. Schedule weekly backup, select the day and time you want to backup</string>
+    <string name="answer5b">b. Backup will run in the background at the scheduled time and after complete a notification will appear</string>
+    <string name="answer5c">c. On clicking the notification, option to send the backup appears</string>
+
+    <string-array name="week_day">
+        <item>Set the Day</item>
+        <item>SUNDAY</item>
+        <item>MONDAY</item>
+        <item>TUESDAY</item>
+        <item>WEDNESDAY</item>
+        <item>THURSDAY</item>
+        <item>FRIDAY</item>
+        <item>SATURDAY</item>
+    </string-array>
+
+</resources>
