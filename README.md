@@ -16,3 +16,5 @@ Restore:
 2. Click the file. Your smartphone will automatically restore your contacts.
 
 For any problem : mailto:stealz.apps@gmail.com
+
+Application Download link - https://play.google.com/store/apps/details?id=com.stealz.bu
